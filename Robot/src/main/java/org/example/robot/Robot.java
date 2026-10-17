@@ -19,6 +19,7 @@ public class Robot {
         robot.setX(100);
         robot.setY(100);
         robot.setFill(Color.BLUE);
+        robot.setFocusTraversable(true);
 
         t = new Timeline(new KeyFrame(Duration.millis(50), event -> {
             automatickyPohyb();

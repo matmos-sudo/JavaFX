@@ -1,5 +1,6 @@
 package org.example.robot;
 
+import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.input.KeyCode;
 import javafx.scene.layout.AnchorPane;
@@ -12,7 +13,8 @@ public class HelloController {
         robot = new Robot();
         Border.getChildren().add(robot.getRobot());
         Border.setFocusTraversable(true);
-        Border.requestFocus();
+        Platform.runLater(() -> Border.requestFocus());
+        Border.setOnMouseClicked(event -> Border.requestFocus());
         Border.setOnKeyPressed(event -> {
             if(event.getCode() == KeyCode.W){
                 robot.hore();
