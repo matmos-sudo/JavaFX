@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="Border" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.weatherobject.HelloController">
+   <children>
+      <Button layoutX="14.0" layoutY="410.0" mnemonicParsing="false" onAction="#pridajOblak" text="Pridaj oblak" />
+      <Button layoutX="105.0" layoutY="410.0" mnemonicParsing="false" onAction="#pridajKvapku" text="Pridaj kvapku" />
+      <Button layoutX="205.0" layoutY="410.0" mnemonicParsing="false" onAction="#pridajVlocku" text="Pridaj vločku" />
+      <Button layoutX="310.0" layoutY="410.0" mnemonicParsing="false" onAction="#zastavDazd" text="Zastav dážď" />
+      <Button layoutX="405.0" layoutY="410.0" mnemonicParsing="false" onAction="#modreOblaky" text="Modré oblaky" />
+      <Button layoutX="510.0" layoutY="410.0" mnemonicParsing="false" onAction="#posunVsetkoDolava" text="Posuň o 20px doľava" />
+   </children>
+</AnchorPane>

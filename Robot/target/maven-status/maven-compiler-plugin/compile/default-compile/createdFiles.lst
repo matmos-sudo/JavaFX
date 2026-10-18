@@ -1,0 +1,5 @@
+org\example\robot\Launcher.class
+org\example\robot\HelloController.class
+module-info.class
+org\example\robot\HelloApplication.class
+org\example\robot\Robot.class
