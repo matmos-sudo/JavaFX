@@ -1,0 +1,8 @@
+org\example\weatherobject\WeatherObject.class
+module-info.class
+org\example\weatherobject\Launcher.class
+org\example\weatherobject\HelloApplication.class
+org\example\weatherobject\HelloController.class
+org\example\weatherobject\Snowflake.class
+org\example\weatherobject\Cloud.class
+org\example\weatherobject\Raindrop.class
